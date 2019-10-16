@@ -13,7 +13,6 @@ export class ProductListComponent implements OnInit {
               private httpService: HttpService) { }
 
   ngOnInit() {
-    // console.log(this.getProduct());
     this.getProductDetails();
   }
 
