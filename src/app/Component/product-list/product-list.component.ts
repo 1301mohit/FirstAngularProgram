@@ -15,7 +15,6 @@ export class ProductListComponent implements OnInit {
   //Changes commit        
 
   ngOnInit() {
-    // console.log(this.getProduct());
     this.getProductDetails();
   }
 
