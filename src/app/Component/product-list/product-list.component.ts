@@ -12,8 +12,6 @@ export class ProductListComponent implements OnInit {
   constructor(private http: HttpClient,
               private httpService: HttpService) { }
 
-  //Changes commit        
-
   ngOnInit() {
     this.getProductDetails();
   }
